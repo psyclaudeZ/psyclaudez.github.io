@@ -4,7 +4,7 @@
  <title>bv的孤岛</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-01-21T22:48:02-08:00</updated>
+ <updated>2019-01-22T00:26:00-08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Bowei Zhang</name>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;We go aGANE bois。&lt;/p&gt;
 
-&lt;iframe id=&quot;player&quot; type=&quot;text/html&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;http://www.youtube.com/embed/D7TVFDswq1M?enablejsapi=1&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;iframe id=&quot;player&quot; type=&quot;text/html&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;https://www.youtube.com/embed/D7TVFDswq1M?enablejsapi=1&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
 </content>
  </entry>
  
