@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>bv的孤岛</title>
- <link href="http://psyclaudez.github.io/atom.xml" rel="self"/>
- <link href="http://psyclaudez.github.io/"/>
- <updated>2019-01-22T08:43:52-08:00</updated>
- <id>http://psyclaudez.github.io</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-01-22T08:46:32-08:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Bowei Zhang</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Go aGANE</title>
-   <link href="http://psyclaudez.github.io/2019/01/21/hello/"/>
+   <link href="http://localhost:4000/2019/01/21/hello/"/>
    <updated>2019-01-21T00:00:00-08:00</updated>
-   <id>http://psyclaudez.github.io/2019/01/21/hello</id>
+   <id>http://localhost:4000/2019/01/21/hello</id>
    <content type="html">&lt;p&gt;砍掉重练不知多少回，所以再建一个blog也没什么大不了的吧。&lt;/p&gt;
 
 &lt;p&gt;We go aGANE bois。&lt;/p&gt;
