@@ -4,13 +4,33 @@
  <title>bv的孤岛</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-01-22T08:46:32-08:00</updated>
+ <updated>2019-01-23T00:36:10-08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Bowei Zhang</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>一则故事</title>
+   <link href="http://localhost:4000/2019/01/22/bbc/"/>
+   <updated>2019-01-22T00:00:00-08:00</updated>
+   <id>http://localhost:4000/2019/01/22/bbc</id>
+   <content type="html">&lt;p&gt;最近在Hacker News上看到一则&lt;a href=&quot;https://www.bbc.com/news/stories-46882917&quot;&gt;BBC的报道&lt;/a&gt;,
+讲述了一个希腊机长在喀布尔酒店袭击中虎口脱险的故事。文章中有一段话让我感触颇深,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t concentrate only on work, stressful and bad things in your life. Concentrate instead on creating good moments and being around good people, because life is so beautiful.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这也是我此次回国乐极生悲后的感悟。&lt;/p&gt;
+
+&lt;p&gt;工作不应该比健康或家人重要。肝代码、评职称，虽然可以让薪水上一台阶，但到达那一步时其实并没有切身获得那么多的满足感。而如果把加班熬夜花费的时间投资到一个周全制订的学习计划中，包括副业开发、健身、陪伴家人，幸福感其实会更高，长远来看的收益率也更高（i.e. 你还能做几年的程序员？）。&lt;/p&gt;
+
+&lt;p&gt;活得更明白——就把它当作new year resolution吧，虽然“明白”的定义我都还没弄清。&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Go aGANE</title>
