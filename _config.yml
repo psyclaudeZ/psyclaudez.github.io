@@ -4,9 +4,9 @@
 permalink:           pretty
 
 # Setup
-title:               bv的孤岛
-tagline:             'Just my random gibberish'
-description:         '随便写写'
+title:               只言片语
+tagline:             random gibberish
+description:         只言片语
 url:                 https://psyclaudez.github.io
 baseurl:             ''
 paginate:            5

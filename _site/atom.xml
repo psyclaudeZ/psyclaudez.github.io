@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>bv的孤岛</title>
+ <title>只言片语</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-01-23T16:45:22-08:00</updated>
+ <updated>2019-01-23T16:53:26-08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Bowei Zhang</name>
@@ -23,7 +23,7 @@
 
 &lt;p&gt;有趣的是，在查找CRA资料时，我惊讶地发现导演的&lt;a href=&quot;https://en.wikipedia.org/wiki/Jon_M._Chu&quot;&gt;祖上竟然是湾区知名美式中餐Chef Chu’s的创始人&lt;/a&gt;，昨晚我还劝说中国同学万万不可尝试来着……&lt;/p&gt;
 
-&lt;p&gt;Palo Alto朱家的作品，果然还是适合美国人来鉴赏。&lt;/p&gt;
+&lt;p&gt;朱家的作品，果然还是适合美国人来鉴赏。&lt;/p&gt;
 </content>
  </entry>
  
