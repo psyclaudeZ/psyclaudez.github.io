@@ -4,7 +4,7 @@
  <title>只言片语</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-03-10T04:42:19-07:00</updated>
+ <updated>2019-03-10T04:43:49-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Bowei Zhang</name>
@@ -65,8 +65,7 @@
    <link href="http://localhost:4000/2019/01/22/bbc/"/>
    <updated>2019-01-22T00:00:00-08:00</updated>
    <id>http://localhost:4000/2019/01/22/bbc</id>
-   <content type="html">&lt;p&gt;最近在Hacker News上看到一则&lt;a href=&quot;https://www.bbc.com/news/stories-46882917&quot;&gt;BBC的报道&lt;/a&gt;,
-讲述了一个希腊机长在喀布尔酒店袭击中虎口脱险的故事。文章中有一段话让我感触颇深,&lt;/p&gt;
+   <content type="html">&lt;p&gt;最近在Hacker News上看到一则&lt;a href=&quot;https://www.bbc.com/news/stories-46882917&quot;&gt;BBC的报道&lt;/a&gt;，讲述了一个希腊机长在喀布尔酒店袭击中虎口脱险的故事。文章中有一段话让我感触颇深,&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Don’t concentrate only on work, stressful and bad things in your life. Concentrate instead on creating good moments and being around good people, because life is so beautiful.&lt;/p&gt;
