@@ -4,13 +4,24 @@
  <title>只言片语</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-03-10T04:43:49-07:00</updated>
+ <updated>2019-03-22T03:02:21-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Bowei Zhang</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>无题</title>
+   <link href="http://localhost:4000/2019/03/22/home/"/>
+   <updated>2019-03-22T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2019/03/22/home</id>
+   <content type="html">&lt;p&gt;发生得太突然，还没有反应过来。用生日作为bid价格，居然中了。&lt;/p&gt;
+
+&lt;p&gt;房奴生涯就要开始了。&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>A Lucky and Confused Guy</title>
