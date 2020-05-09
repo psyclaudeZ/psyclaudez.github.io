@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Non BlizzCon related BlizzCon post
+title: Non BlizzCon BlizzCon Post
 tags: [感]
 ---
 BlizzCon第二天，睡了12个小时。 很久没有睡过这么久。可随之而来的，却又是一场可望而不可及的梦。

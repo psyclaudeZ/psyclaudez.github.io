@@ -4,7 +4,7 @@
  <title>只言片语</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-05-09T01:48:29-07:00</updated>
+ <updated>2020-05-09T01:49:47-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Bowei Zhang</name>
@@ -22,7 +22,7 @@
  </entry>
  
  <entry>
-   <title>Non BlizzCon related BlizzCon post</title>
+   <title>Non BlizzCon BlizzCon Post</title>
    <link href="http://localhost:4000/2019/11/02/non-blizzcon/"/>
    <updated>2019-11-02T00:00:00-07:00</updated>
    <id>http://localhost:4000/2019/11/02/non-blizzcon</id>
