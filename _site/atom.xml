@@ -4,13 +4,28 @@
  <title>只言片语</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-05-09T01:49:47-07:00</updated>
+ <updated>2020-06-01T04:42:10-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Bowei Zhang</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>青春有你2</title>
+   <link href="http://localhost:4000/2020/06/01/ywy2/"/>
+   <updated>2020-06-01T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2020/06/01/ywy2</id>
+   <content type="html">&lt;p&gt;从最初对滥用推广噱头的不屑一顾，到后来一集不落地开始关注，再到今天对落下帷幕的怅然若失——我从来没有想到我对这个节目会有如此心态转变。&lt;/p&gt;
+
+&lt;p&gt;其实直到最后我也从来没有pick过任何学员。只是在这些姑娘身上，我看见了许多或许我本可拥有却愈发难以企及的经历，于是便不由自主地把自己投射了上去。我的人生一直都平顺而寡淡——目标不用太多努力即可收获，奋斗几乎都是孤身一人，大学同僚情谊也因为留学轨迹而被割裂（甚至毕业典礼也没能参加）…… 我妈妈总是说她很高兴我的人生是如此顺利，可是deep inside我总觉得缺失了很多。我真的渴望可以像这些姑娘们一样，在绚烂的时光，与交心的伙伴，共同挥洒汗水。&lt;/p&gt;
+
+&lt;p&gt;最后一集尾声中一次次采访的打板，一次次提醒我需要回归现实。看书、练琴，这是目前能带给我最多愉悦的精神探索，但我也不知道它们能否带我到“最美的地方”。恍惚的人生，到底何时才是个头呢？&lt;/p&gt;
+
+&lt;p&gt;当然，这也可能只是shelter-in-place时期的无病呻吟……&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>A New Journey</title>
