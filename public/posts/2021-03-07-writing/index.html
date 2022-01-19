@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>A Better Way of Writing? - 只言片语</title>
+
+  
+  
+  <meta name="description" content="离上一次更新已经有一些时日了。其实这期间也有许多关于人生、读书、游戏的思考打算分享， 可最终还是败给了拖延症。细细想来，除了个人的慵懒以外，客" />
+  <meta name="author" content="psyclaudeZ" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://psyclaudez.github.io/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="http://psyclaudez.github.io/an-old-hope.min.css" />
+  <script
+    defer
+    src="http://psyclaudez.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="http://psyclaudez.github.io/theme.png" />
+
+  
+
+  
+  <link rel="icon" href="http://psyclaudez.github.io/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://psyclaudez.github.io/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.0" />
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="A Better Way of Writing?" />
+<meta property="og:description" content="离上一次更新已经有一些时日了。其实这期间也有许多关于人生、读书、游戏的思考打算分享， 可最终还是败给了拖延症。细细想来，除了个人的慵懒以外，客" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://psyclaudez.github.io/posts/2021-03-07-writing/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-03-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-07T00:00:00+00:00" />
+
+
+  
+  <meta itemprop="name" content="A Better Way of Writing?">
+<meta itemprop="description" content="离上一次更新已经有一些时日了。其实这期间也有许多关于人生、读书、游戏的思考打算分享， 可最终还是败给了拖延症。细细想来，除了个人的慵懒以外，客"><meta itemprop="datePublished" content="2021-03-07T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-03-07T00:00:00+00:00" />
+<meta itemprop="wordCount" content="506">
+<meta itemprop="keywords" content="杂," />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="A Better Way of Writing?"/>
+<meta name="twitter:description" content="离上一次更新已经有一些时日了。其实这期间也有许多关于人生、读书、游戏的思考打算分享， 可最终还是败给了拖延症。细细想来，除了个人的慵懒以外，客"/>
+
+  
+  
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="http://psyclaudez.github.io/">只言片语</a><a class="btn-dark"></a>
+  </p>
+  
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/about/">About</a>
+    
+  </nav>
+  
+
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      <time>Mar 7, 2021</time>
+      
+      <span>psyclaudeZ</span>
+      
+    </p>
+    <h1>A Better Way of Writing?</h1>
+  </header>
+  <section class="post-content"><p>离上一次更新已经有一些时日了。其实这期间也有许多关于人生、读书、游戏的思考打算分享，
+可最终还是败给了拖延症。细细想来，除了个人的慵懒以外，客观上tooling也是一个很大的因素。</p>
+<p>一直以来（包括以前的blogs），我都是用<code>vim</code> + <code>$site_generator_X</code>进行写作。一般的工作流程犹如开发——首先<code>tmux</code>分窗口，一个pane跑<code>jekyll</code>，另一个开<code> vim</code>来编辑。由于是<code>jekyll serve</code>模式，我可以实时打开render在local的页面。当一切看起来okay，<code>git push</code>即可发布。但渐渐地这种setup变成了mental负担——一想到需要把一部分精力消耗在dealing with environments上，写文章就提不起兴趣。究其原因，或许是写作与编程动用的大脑部位不同（来源请求？），所以当使用编程的方法来写作时，错乱就发生了。</p>
+<p>Anyway，不管是不是唬烂，这种写作方式确实很难focus。替代方案寻找中……</p>
+<p>P.S. substack我也有所了解，但是它很大的硬伤是它的本质——mailing list。这意味着status quo
+是会在邮箱里读文章。而试问2021年，有谁的个人邮箱是一个可以用来静心阅读的清净之地？</p>
+</section>
+
+  
+  
+  <footer class="post-tags">
+     
+    <a href="http://psyclaudez.github.io/tags/%E6%9D%82">杂</a>
+    
+  </footer>
+  
+
+  
+  
+  
+  <nav class="post-nav">
+     
+    <a class="next" href="http://psyclaudez.github.io/posts/2020-07-06-work/"><span>Rant</span><span>→</span></a>
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>&copy; 2022 <a href="http://psyclaudez.github.io/">只言片语</a></p>
+  <p>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</p>
+  <p>
+    <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper 5.1</a>
+  </p>
+</footer>
+
+  </body>
+</html>

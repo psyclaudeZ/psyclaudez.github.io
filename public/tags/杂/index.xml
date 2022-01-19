@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>杂 on 只言片语</title>
+    <link>http://psyclaudez.github.io/tags/%E6%9D%82/</link>
+    <description>Recent content in 杂 on 只言片语</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://psyclaudez.github.io/tags/%E6%9D%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Better Way of Writing?</title>
+      <link>http://psyclaudez.github.io/posts/2021-03-07-writing/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://psyclaudez.github.io/posts/2021-03-07-writing/</guid>
+      <description>离上一次更新已经有一些时日了。其实这期间也有许多关于人生、读书、游戏的思考打算分享， 可最终还是败给了拖延症。细细想来，除了个人的慵懒以外，客</description>
+    </item>
+    
+    <item>
+      <title>Go aGANE</title>
+      <link>http://psyclaudez.github.io/posts/2019-01-21-hello/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://psyclaudez.github.io/posts/2019-01-21-hello/</guid>
+      <description>砍掉重练不知多少回，所以再建一个blog也没什么大不了的吧。 We go aGANE bois。</description>
+    </item>
+    
+  </channel>
+</rss>
