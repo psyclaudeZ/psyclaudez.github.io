@@ -1,6 +1,4 @@
-.DS_Store
-.hugo_build.lock
-.gitmodules
+.*
 archetypes
 content
 themes
