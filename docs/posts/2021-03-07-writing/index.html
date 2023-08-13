@@ -10,15 +10,43 @@
 
 
 
-<html lang="en-us">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
   <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
 
   
   <title>A Better Way of Writing? - 只言片语</title>
 
+  
+  <meta name="theme-color" />
+
+  
   
   
   <meta name="description" content="离上一次更新已经有一些时日了。其实这期间也有许多关于人生、读书、游戏的思考打算分享， 可最终还是败给了拖延症。细细想来，除了个人的慵懒以外，客" />
@@ -31,10 +59,9 @@
   
   
   
-  <link rel="preload stylesheet" as="style" href="https://psyclaudez.github.io/app.min.css" />
+  <link rel="preload stylesheet" as="style" href="https://psyclaudez.github.io/main.min.css" />
 
   
-  <link rel="preload stylesheet" as="style" href="https://psyclaudez.github.io/an-old-hope.min.css" />
   <script
     defer
     src="https://psyclaudez.github.io/highlight.min.js"
@@ -43,8 +70,18 @@
   
 
   
+   
   <link rel="preload" as="image" href="https://psyclaudez.github.io/theme.png" />
 
+  
+  
+  
+  
+
+  
+  
+
+  
   
 
   
@@ -52,13 +89,11 @@
   <link rel="apple-touch-icon" href="https://psyclaudez.github.io/apple-touch-icon.png" />
 
   
-  <meta name="generator" content="Hugo 0.104.3" />
+  <meta name="generator" content="Hugo 0.116.1">
 
   
   
 
-  
-  
   
   
   
@@ -72,7 +107,6 @@
 <meta property="og:url" content="https://psyclaudez.github.io/posts/2021-03-07-writing/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-03-07T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-03-07T00:00:00+00:00" />
-
 
   
   <meta itemprop="name" content="A Better Way of Writing?">
@@ -89,59 +123,117 @@
   
 </head>
 
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://psyclaudez.github.io/"
+      >只言片语</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
 
-  <body class="not-ready" data-menu="true">
-    <header class="header">
-  
-  <p class="logo">
-    <a class="site-name" href="https://psyclaudez.github.io/">只言片语</a><a class="btn-dark"></a>
-  </p>
-  
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
 
+  
   <script>
-    let bodyClx = document.body.classList;
-    let btnDark = document.querySelector('.btn-dark');
-    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
-    let darkVal = localStorage.getItem('dark');
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
 
-    let setDark = (isDark) => {
-      bodyClx[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
     };
 
-    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
-    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
 
-    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
-    sysDark.addEventListener('change', (event) => setDark(event.matches));
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
   </script>
 
-  
-  
-  <nav class="menu">
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
     
-    <a class="" href="/about/">About</a>
     
-  </nav>
-  
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+    </nav>
+    
 
-  
+    
+  </div>
 </header>
 
 
-    <main class="main">
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
 
-<article class="post-single">
-  <header class="post-title">
-    <p>
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">A Better Way of Writing?</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
       <time>Mar 7, 2021</time>
       
+      
+      
+      
+      <span class="mx-1">&middot;</span>
       <span>psyclaudeZ</span>
       
-    </p>
-    <h1>A Better Way of Writing?</h1>
+    </div>
+    
   </header>
-  <section class="post-content"><p>离上一次更新已经有一些时日了。其实这期间也有许多关于人生、读书、游戏的思考打算分享，
+
+  <section><p>离上一次更新已经有一些时日了。其实这期间也有许多关于人生、读书、游戏的思考打算分享，
 可最终还是败给了拖延症。细细想来，除了个人的慵懒以外，客观上tooling也是一个很大的因素。</p>
 <p>一直以来（包括以前的blogs），我都是用<code>vim</code> + <code>$site_generator_X</code>进行写作。一般的工作流程犹如开发——首先<code>tmux</code>分窗口，一个pane跑<code>jekyll</code>，另一个开<code> vim</code>来编辑。由于是<code>jekyll serve</code>模式，我可以实时打开render在local的页面。当一切看起来okay，<code>git push</code>即可发布。但渐渐地这种setup变成了mental负担——一想到需要把一部分精力消耗在dealing with environments上，写文章就提不起兴趣。究其原因，或许是写作与编程动用的大脑部位不同（来源请求？），所以当使用编程的方法来写作时，错乱就发生了。</p>
 <p>Anyway，不管是不是唬烂，这种写作方式确实很难focus。替代方案寻找中……</p>
@@ -151,9 +243,13 @@
 
   
   
-  <footer class="post-tags">
+  <footer class="mt-12 flex flex-wrap">
      
-    <a href="https://psyclaudez.github.io/tags/%E6%9D%82">杂</a>
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="https://psyclaudez.github.io/tags/%E6%9D%82"
+      >杂</a
+    >
     
   </footer>
   
@@ -161,25 +257,45 @@
   
   
   
-  <nav class="post-nav">
-     
-    <a class="next" href="https://psyclaudez.github.io/posts/2020-07-06-work/"><span>Rant</span><span>→</span></a>
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://psyclaudez.github.io/posts/2020-07-06-work/"
+      ><span>Rant</span><span class="ml-1.5">→</span></a
+    >
     
   </nav>
   
 
   
   
+
+  
+  
 </article>
 
-</main>
 
-    <footer class="footer">
-  <p>&copy; 2022 <a href="https://psyclaudez.github.io/">只言片语</a></p>
-  <p>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</p>
-  <p>
-    <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper 5.1</a>
-  </p>
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2023
+    <a class="link" href="https://psyclaudez.github.io/">只言片语</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
 </footer>
 
   </body>
