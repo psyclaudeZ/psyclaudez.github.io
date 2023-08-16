@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 只言片语</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://psyclaudez.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 20:50:33 -0700</lastBuildDate><atom:link href="https://psyclaudez.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>手写婚礼请柬</title>
+      <link>https://psyclaudez.github.io/posts/2023-08-15-invitation/</link>
+      <pubDate>Tue, 15 Aug 2023 20:50:33 -0700</pubDate>
+      
+      <guid>https://psyclaudez.github.io/posts/2023-08-15-invitation/</guid>
+      <description>最近准备回国办婚礼，发现已有的请柬服务都做得不如人意。于是乎决定自己撸起袖子重头写一个网站来作为请柬。需求很简单，静态网站，背景视频，邀请函</description>
+    </item>
+    
     <item>
       <title>A Better Way of Writing?</title>
       <link>https://psyclaudez.github.io/posts/2021-03-07-writing/</link>
