@@ -10,7 +10,7 @@ html {
 .card {
   max-width: 875px;
   margin: auto;
-  top: 150px;
+  top: 10%;
   padding: 20px;
   transform: translateY(0);
   display: flex;
@@ -29,6 +29,11 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   object-fit: cover;
   cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
 }
 
 p:last-child {
