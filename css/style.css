@@ -53,6 +53,14 @@ a {
   flex-direction: column;
   overflow-y: auto;
   flex: none;
+  /* hide scrollbar for IE, Edge, and Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* hide scrollbar for Chrome, Safari, and Opera */
+.profile::-webkit-scrollbar {
+  display: none;
 }
 
 @media (min-width: 801px) {
