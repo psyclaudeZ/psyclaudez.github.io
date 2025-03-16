@@ -8,11 +8,11 @@ html {
 }
 
 .card {
-  max-width: 785px;
+  max-width: 875px;
   margin: auto;
-  top: 50%;
+  top: 150px;
   padding: 20px;
-  transform: translateY(-50%);
+  transform: translateY(0);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,14 +20,15 @@ html {
 }
 
 .profile-image {
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   border-radius: 50%;
   margin-right: 20px;
   margin-bottom: 45px;
   border: 5px solid #f8f9f5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   object-fit: cover;
+  cursor: pointer;
 }
 
 p:last-child {
@@ -41,15 +42,20 @@ a {
 
 .profile {
   text-align: left;
-  flex: 1;
   border-radius: 20px;
-  padding: 16px;
-  background-color: #faf9f5;
+  padding: 25px;
+  background-color: #f8f9f5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: relative;
+  height: 350px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  flex: none;
 }
 
-@media (min-width: 601px) {
+@media (min-width: 801px) {
   body,
   html {
     height: 100%;
@@ -57,13 +63,16 @@ a {
   }
 
   .card {
+    top: 50%;
+    transform: translateY(-50%);
     flex-direction: row;
     justify-content: space-between;
   }
 
   .profile {
-    text-align: left;
     flex: 1;
+    height: 155px;
+    width: auto;
   }
 
   .profile-image {
@@ -73,4 +82,30 @@ a {
   p {
     margin-top: 0px;
   }
+}
+
+.writing-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.writing-list li {
+  margin-bottom: 16px;
+}
+
+.writing-list .date {
+  opacity: 0.5;
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+.bottom-links {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.hidden {
+  display: none;
 }
