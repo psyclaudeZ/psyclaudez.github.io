@@ -10,7 +10,7 @@ html {
 .card {
   max-width: 875px;
   margin: auto;
-  top: 10%;
+  top: 5%;
   padding: 20px;
   transform: translateY(0);
   display: flex;
