@@ -3,7 +3,7 @@ const posts = [
     title: "Yet Another Yet Another Blog",
     date: "2025-03-17",
     type: "Tweety",
-    content: `This is my <code>Nth</code> blog and <code>N-1</code> "Yet Another Blog" post, where <code>N >= 3</code>. Let's see how far I can go this time.`,
+    content: `This is my <code>N</code>th blog and <code>N-1</code>th "Yet Another Blog" post, where <code>N >= 3</code>. Let's see how far I can go this time.`,
     url: "",
   },
   // {
