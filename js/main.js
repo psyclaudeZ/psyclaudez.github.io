@@ -1,25 +1,30 @@
-const posts = [
-  {
-    title: "Yet Another Yet Another Blog",
-    date: "2025-03-17",
-    type: "Tweety",
-    content: `This is my <code>N</code>th blog and <code>N-1</code>th "Yet Another Blog" post, where <code>N >= 3</code>. Let's see how far I can go this time.`,
-    url: "",
-  },
-  // {
-  //   title: "Test blog",
-  //   date: "2025-03-17",
-  //   type: "Blog",
-  //   content: "hello",
-  //   url: "https://www.google.com",
-  // },
-];
+const POST_TYPE = {
+  BLOG: "Bloggy",
+  TWEETY: "Tweety",
+};
 
 const VIEW_STATES = {
   ABOUT: "about",
   WRITING_LIST: "writing_list",
   POST: "post",
 };
+
+const posts = [
+  {
+    title: "Yet Another Yet Another Blog",
+    date: "2025-03-17",
+    type: POST_TYPE.TWEETY,
+    content: `This is my <code>N</code>th blog and <code>N-1</code>th "Yet Another Blog" post, where <code>N >= 3</code>. Let's see how far I can go this time.`,
+    url: "",
+  },
+  // {
+  //   title: "Test blog",
+  //   date: "2025-03-17",
+  //   type: POST_TYPE.BLOG,
+  //   content: "hello",
+  //   url: "https://www.google.com",
+  // },
+];
 
 document.addEventListener("DOMContentLoaded", () => {
   const writingLink = document.getElementById("writing-link");
@@ -69,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const postId = e.target.dataset.postId;
         const post = posts[postId];
 
-        if (!post || post.type !== "Tweety") {
+        if (!post || post.type !== POST_TYPE.TWEETY) {
           return;
         }
 
@@ -81,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function generatePostLink(posts) {
   const listItems = posts.map((post, idx) => {
-    const isTweety = post.type === "Tweety";
+    const isTweety = post.type === POST_TYPE.TWEETY;
     return `<li><span class="date">${
       post.date
     }</span><a class="post-link" href=${isTweety ? "#" : post.url} target=${
