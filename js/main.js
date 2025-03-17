@@ -40,7 +40,7 @@ function generatePostLink(posts) {
     const isTweety = post.type === "Tweety";
     return `<li><span class="date">${
       post.date
-    }</span> <a class="post-link" href=${isTweety ? "#" : post.url} target=${
+    }</span><a class="post-link" href=${isTweety ? "#" : post.url} target=${
       isTweety ? "_self" : "_tab"
     } data-post-id=${idx}>[${post.type}] ${post.title}</a></li>`;
   });
