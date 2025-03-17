@@ -19,6 +19,11 @@ html {
   position: relative;
 }
 
+.profile-image-container {
+  position: relative;
+  cursor: pointer;
+}
+
 .profile-image {
   width: 175px;
   height: 175px;
@@ -26,12 +31,29 @@ html {
   border: 5px solid #f8f9f5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   object-fit: cover;
-  cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
 }
 
-.profile-image:hover {
+.profile-image-container::after {
+  content: "←"; /* Simple left arrow, you can replace with any icon */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-image-container:hover .profile-image {
   transform: scale(1.1);
+  filter: brightness(0.7); /* Darken the image when hovering */
+}
+
+.profile-image-container:hover::after {
+  opacity: 1;
 }
 
 p:last-child {
