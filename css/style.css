@@ -23,8 +23,6 @@ html {
   width: 175px;
   height: 175px;
   border-radius: 50%;
-  margin-right: 20px;
-  margin-bottom: 45px;
   border: 5px solid #f8f9f5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   object-fit: cover;
@@ -52,6 +50,7 @@ a {
   background-color: #f8f9f5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: relative;
+  margin-top: 45px;
   height: 350px;
   width: 300px;
   display: flex;
@@ -80,16 +79,15 @@ a {
     transform: translateY(-50%);
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   .profile {
     flex: 1;
     height: 155px;
     width: auto;
-  }
-
-  .profile-image {
-    margin-bottom: 16px;
+    margin-top: 0px;
+    margin-left: 20px;
   }
 
   p {
