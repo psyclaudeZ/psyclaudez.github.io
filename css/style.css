@@ -122,3 +122,13 @@ a {
 .hidden {
   display: none;
 }
+
+.date {
+  font-size: 14px;
+  color: #666;
+  margin-right: 12px;
+  /* Optional: make it slightly lighter and smaller */
+  opacity: 0.8;
+  display: inline-block;
+  min-width: 85px; /* Makes dates align nicely if you have multiple posts */
+}
