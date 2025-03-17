@@ -35,7 +35,7 @@ html {
 }
 
 .profile-image-container::after {
-  content: "←"; /* Simple left arrow, you can replace with any icon */
+  content: "←";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,15 +45,27 @@ html {
   opacity: 0;
   transition: opacity 0.3s ease;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
 }
 
+/* Only show hover effects when not on about section */
+.profile-image-container.show-back:hover .profile-image {
+  transform: scale(1.1);
+  filter: brightness(0.7);
+}
+
+.profile-image-container.show-back:hover::after {
+  opacity: 1;
+}
+
+/* Remove the original hover rules */
 .profile-image-container:hover .profile-image {
   transform: scale(1.1);
-  filter: brightness(0.7); /* Darken the image when hovering */
+  filter: none;
 }
 
 .profile-image-container:hover::after {
-  opacity: 1;
+  opacity: 0;
 }
 
 p:last-child {

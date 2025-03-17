@@ -26,12 +26,14 @@ document.addEventListener("DOMContentLoaded", () => {
     aboutSection.classList.add("hidden");
     writingSection.innerHTML = generatePostLink(posts);
     writingSection.classList.remove("hidden");
+    profileImage.parentElement.classList.add("show-back");
     registerPostLink();
   });
 
   profileImage.addEventListener("click", () => {
     writingSection.classList.add("hidden");
     aboutSection.classList.remove("hidden");
+    profileImage.parentElement.classList.remove("show-back");
   });
 });
 
