@@ -17,14 +17,15 @@ const posts = [
     content: `This is my <code>N</code>th blog and <code>N-1</code>th "Yet Another Blog" post, where <code>N >= 3</code>. Let's see how far I can go this time.`,
     url: "",
   },
-  // {
-  //   title: "Test blog",
-  //   date: "2025-03-17",
-  //   type: POST_TYPE.BLOG,
-  //   content: "hello",
-  //   url: "https://www.google.com",
-  // },
+  {
+    title: "Write-to-learn Transformers",
+    date: "2025-03-26",
+    type: POST_TYPE.BLOG,
+    content: "",
+    url: "https://bz.bearblog.dev/write-to-learn-transformers/",
+  },
 ];
+posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 
 document.addEventListener("DOMContentLoaded", () => {
   const writingLink = document.getElementById("writing-link");
