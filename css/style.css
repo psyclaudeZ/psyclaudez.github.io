@@ -101,7 +101,7 @@ a {
   display: none;
 }
 
-@media (min-width: 801px) {
+@media (min-width: 891px) {
   body,
   html {
     height: 100%;
